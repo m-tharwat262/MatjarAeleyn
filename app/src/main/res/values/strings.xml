@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Matjar Aeleyn</string>
+
+
+    <string name="by_rayyan_sharif">By Rayyan Sharif</string>
+
+
+    <string name="state_no_permission">لا يمكن فتح الموقع بدون هذا الاذن</string>
+    <string name="state_no_internet">افحص اتصالك بالانترنت وحاول مره آخري</string>
+
+    <string name="button_refresh"><u>Refresh</u></string>
+    <string name="button_accept_permission"><u>الموافقة علي الاذن</u></string>
+    <string name="go_to_site">الذهاب للموقع</string>
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <com.github.florent37.shapeofview.shapes.ArcView
+        android:id="@+id/activity_main_arc_view"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:elevation="0dp"
+        app:shape_arc_cropDirection="outside"
+        app:shape_arc_height="35dp"
+        app:shape_arc_position="bottom">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/activity_settings_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_bar"
+            android:elevation="0dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/activity_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="@string/app_name"/>
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.github.florent37.shapeofview.shapes.ArcView>
+
+
+
+
+
+
+
+
+    <WebView
+        android:id="@+id/activity_main_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/activity_my_group_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/purple_700"
+            android:visibility="gone"
+            tools:visibility="gone" />
+
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/activity_main_app_icon"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/app_icon"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/activity_main_arc_view"/>
+
+
+    <TextView
+        android:id="@+id/activity_main_go_to_web_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/activity_main_app_icon"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/button_clicks_2"
+        android:text="@string/go_to_site"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/activity_main_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_main_go_to_web_view_button"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="16sp"
+        android:autoSizeMinTextSize="10sp"
+        android:autoSizeStepGranularity="1sp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        tools:visibility="gone"
+        tools:text="there is no internet connection"/>
+
+
+
+
+
+
+</RelativeLayout>

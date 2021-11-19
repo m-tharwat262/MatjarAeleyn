@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "103538252377",
+    "project_id": "matjar-aeleyn",
+    "storage_bucket": "matjar-aeleyn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103538252377:android:c895e2c5f6a902f34cef48",
+        "android_client_info": {
+          "package_name": "com.example.androidmatjar.aeleyn.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103538252377-a20l32h2jfh350rqrtjm487qq4lavau6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidmatjar.aeleyn.com",
+            "certificate_hash": "a3d7db1a340f4ad1bdfefb5ad3ff33af76d06ac9"
+          }
+        },
+        {
+          "client_id": "103538252377-bkd4u0bloptf57vasu9b57hrelt5d8s9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB74Ru8rGVCdUER_NY9LZcdF3-UX_Pzypw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103538252377-bkd4u0bloptf57vasu9b57hrelt5d8s9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
